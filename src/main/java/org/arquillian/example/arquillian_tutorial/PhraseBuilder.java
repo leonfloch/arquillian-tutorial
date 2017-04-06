@@ -4,7 +4,10 @@ import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.PostConstruct;
+import javax.ejb.Stateless;
 
+
+@Stateless
 public class PhraseBuilder {
     private Map<String, String> templates;
 

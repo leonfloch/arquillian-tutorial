@@ -22,8 +22,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -118,24 +118,25 @@
 					<artifactId>glassfish-embedded-all</artifactId>
 					<version>3.1.2</version>
 					<scope>provided</scope>
-				</dependency>
+				</dependency>				
+				
 			</dependencies>
 		</profile>
 		<!-- FIN Perfil GlassFish Embebido -->
 
 
 		<!-- Perfil WebSphere AS -->
-<!-- 		<profile> -->
-<!-- 			<id>arquillian-was-embedded</id> -->
-<!-- 			<dependencies> -->
-<!-- 				<dependency> -->
-<!-- 					<groupId>org.jboss.arquillian.container</groupId> -->
-<!-- 					<artifactId>arquillian-was-embedded-8</artifactId> -->
-<!-- 					<version>1.0.0.Beta2</version> -->
-<!-- 					<scope>test</scope> -->
-<!-- 				</dependency> -->
-<!-- 			</dependencies> -->
-<!-- 		</profile> -->
+		<!-- <profile> -->
+		<!-- <id>arquillian-was-embedded</id> -->
+		<!-- <dependencies> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.jboss.arquillian.container</groupId> -->
+		<!-- <artifactId>arquillian-was-embedded-8</artifactId> -->
+		<!-- <version>1.0.0.Beta2</version> -->
+		<!-- <scope>test</scope> -->
+		<!-- </dependency> -->
+		<!-- </dependencies> -->
+		<!-- </profile> -->
 		<!-- FIN Perfil WebSphere AS -->
 
 
